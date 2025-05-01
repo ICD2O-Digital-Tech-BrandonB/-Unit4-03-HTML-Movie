@@ -1,9 +1,60 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+
+      <!--Meta Data-->
+      <meta charset="utf-8">
+      <meta name="description" content="Volume of a Sphere">
+      <meta name="keyboard" content="immaculata, icd2o">
+      <meta name="author" content="BrandonBCode">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Allows the Use of Favicons-->
+      <link rel="apple-touch-icon" sizes="180x180" href="./faviconu403/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="./faviconu403/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="./faviconu403/favicon-16x16.png">
+      <link rel="manifest" href="./faviconu403/site.webmanifest">
+
+      <!--Google's MDL Crucial Code-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"> 
+
+      <!--Links CSS to HTML-->
+      <link rel="stylesheet" href="./css/style.css">
+
+    <title>Movie Theatre Theatrics</title>
   </head>
   <body>
-    <p>Paragraph</p>
+
+    <!--MDL Crucial Code-->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!--Links JS to HTML-->
+    <script src="./js/script.js"></script>
+
+    <h1>Can You See the Movie?</h1>
+
+    <!--Allows you to use an image on HTML-->
+    <img src="./images/movie-theatre.jpg" alt="Movie Theatre" class="center" >
+
+    <h2>Please Enter the Following</h2>
+
+    <!--Information for Function-->
+      <form action="javascript:intakeAge()">
+        <label for="userAge">Your Age!</label>
+        <input type="number" id="userAge" step="1" placeholder="What is your age?"><br><br>
+
+        <!-- Raised button with ripple -->
+        <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="intakeAge()"> Calculate  
+        </button>
+        <br/>
+      </form>
+    </p>
+
+    <!--Location for where to display the message-->
+    <div id="outputAge"></div>
+    <br>
   </body>
 </html>

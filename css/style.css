@@ -1,4 +1,33 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Brandon Brandhuber
+* Created on: April 2025
 * This file contains the CSS for index.html
 */
+
+body {
+    background-color: rgb(245, 221, 171);
+}
+
+h1 {
+    background-color: rgb(126, 233, 210);
+    color: hsl(288, 78%, 69%);
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(231, 130, 130);
+    color: hsl(216, 78%, 69%);
+}
+
+div {
+    font-weight: bold;
+    color: #000000;
+    margin: 5px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
